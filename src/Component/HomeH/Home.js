@@ -53,13 +53,12 @@ const Home = () => {
                 <div className='col_1'>
                     <h4>Best Skill on</h4>
                     <button className='btn_shadow'>
-                      <a href='https://github.com/vish23698sahu'>
+                      <a href='https://github.com/vish23698sahu' target='_blank' rel='noreferrer'>
                         <i class="fa-brands fa-github"></i>
                       </a>
                     </button>
                 </div>
             </div>
-
           </div>
 
           <div className='right'>

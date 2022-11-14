@@ -39,9 +39,9 @@ const Card = (props) => {
                         <span>{props.date}</span>
                         <h1>{props.title_one}</h1>
                         <p>{props.desc_one}</p>
-                        <h1>{props.title_one}</h1>
+                        {/* <h1>{props.title_one}</h1> */}
                         <p>{props.desc_two}</p>
-                        <h1>{props.title_three}</h1>
+                        {/* <h1>{props.title_three}</h1> */}
                         <p>{props.desc_three}</p>
                         
                         <button className='close-modal btn_shadow' onClick={toggleModal}>

@@ -39,8 +39,8 @@ const Card = (props) => {
                     <div className='modal-text right'>
                         <span>Featured - Design</span>
                         <h1>{props.title}</h1>
-                        <p>So how did the classical Latin become so incoherent? According to McClintock, a 15th century typesetter likely scrambled part of Cicero's De Finibus in order to provide placeholder text to mockup various fonts for a type specimen book.</p>
-                        <p>What I find remarkable is that this text has been the industry's standard dummy text ever since some printer in the 1500s took a galley of type and scrambled it to make a type specimen book; it has survived not only four centuries.</p>
+                        <p>{props.desc}</p>
+                        <p></p>
                         <div className='button f_flex mtop'>
                             <button className='btn_shadow'>
                                 Like this <i className='far fa-thumbs-up'></i>

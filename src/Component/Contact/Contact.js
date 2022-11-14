@@ -52,13 +52,19 @@ const Contact = () => {
                             <span>Let's Catch Up !</span>
                             <div className='button f-flex'>
                                 <button className='btn_shadow'>
-                                    <i className='fab fa-facebook-f'></i>
+                                    <a href='https://www.facebook.com/' target='_blank' rel='noreferrer'>
+                                        <i className='fab fa-facebook-f'></i>
+                                    </a>
                                 </button>
                                 <button className='btn_shadow'>
-                                    <i className='fab fa-instagram'></i>
+                                    <a href='https://www.instagram.com/' target='_blank' rel='noreferrer'>
+                                        <i className='fab fa-instagram'></i>
+                                    </a>
                                 </button>
                                 <button className='btn_shadow'>
-                                    <i className='fab fa-twitter'></i>
+                                    <a href='https://twitter.com/?lang=en-in' target='_blank' rel='noreferrer'>
+                                        <i className='fab fa-twitter'></i>
+                                    </a>
                                 </button>
                             </div>
                         </div>

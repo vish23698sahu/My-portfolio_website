@@ -33,17 +33,17 @@ const Home = () => {
                     <h4>FIND WITH ME</h4>
                     <div className='button'>
                         <button className='btn_shadow'>
-                          <a href='https://www.facebook.com/'>
+                          <a href='https://www.facebook.com/' target='_blank' rel='noreferrer'>
                             <i className='fab fa-facebook-f'></i>
                           </a>
                         </button>
                         <button className='btn_shadow'>
-                          <a href='https://www.instagram.com/'>
+                          <a href='https://www.instagram.com/' target='_blank' rel='noreferrer'>
                           <i className='fab fa-instagram'></i>
                           </a>
                         </button>
                         <button className='btn_shadow'>
-                          <a href='https://www.linkedin.com/in/vishakhasahu/'>
+                          <a href='https://www.linkedin.com/in/vishakhasahu/' target='_blank' rel='noreferrer'>
                             <i className='fab fa-linkedin-in'></i>
                           </a>
                         </button>

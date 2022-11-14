@@ -4,9 +4,26 @@ import '../Portfolio/Portfolio.css';
 
 const Card = (props) => {
     const [modal, setModal] = useState(false);
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [website, setWebsite] = useState('');
+    const [comment, setComment] = useState('');
 
     const toggleModal = ()=>{
         setModal(!modal);
+    }
+
+    const onSubmitClick=(event)=>{
+        event.preventDefault();
+        if(name === '' || email==='' || comment==='' ){
+            alert('Please enter valid Reply');
+            return;
+        }
+        alert('Thanks for your response, will contact you asap');
+        setName('');
+        setEmail('');
+        setWebsite('');
+        setComment('');
     }
 
   return (
@@ -52,13 +69,13 @@ const Card = (props) => {
                             <h1>Leave a reply</h1>
                             <form className='blog_contact d_flex'>
                                 <div className='left'>
-                                    <input type='text' placeholder='Name' />
-                                    <input type='email' placeholder='Email' />
-                                    <input type='text' placeholder='Website' />
-                                    <button className='btn_shadow'>Submit</button>
+                                    <input type='text' placeholder='Name' value={name} onChange={(e) => {setName(e.target.value)}} />
+                                    <input type='email' placeholder='Email' value={email} onChange={(e) => {setEmail(e.target.value)}} />
+                                    <input type='text' placeholder='Website' value={website} onChange={(e) => {setWebsite(e.target.value)}} />
+                                    <button className='btn_shadow' onClick={onSubmitClick}>Submit</button>
                                 </div>
                                 <div className='right'>
-                                    <textarea cols='30' rows='12' placeholder='Comment'></textarea>
+                                    <textarea cols='30' rows='12' placeholder='Comment' value={comment} onChange={(e) => {setComment(e.target.value)}} ></textarea>
                                 </div>
                             </form>
                         </div>

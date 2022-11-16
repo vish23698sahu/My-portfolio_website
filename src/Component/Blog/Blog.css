@@ -24,8 +24,9 @@
 
 @media (max-width: 768px) {
     .modal-blog.modal .modal-content{
-        max-width: 90%;
+        max-width: 85%;
         margin-bottom: 20%;
+        margin-left: 3%;
     }
 }
 

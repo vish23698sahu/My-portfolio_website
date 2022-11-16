@@ -79,8 +79,8 @@ header ul li a:hover{
     }
     .close,.open{
         position: absolute;
-        top: 35px;
-        right: 20px;
+        top: 25px;
+        right: 30px;
         color: #ff014f;
         display: block;
         font-size: 25px;

@@ -26,8 +26,6 @@ const Home = () => {
               />
             </h2>
 
-            {/* <p>Lorem ipsum text</p> */}
-
             <div className='hero_btn d_flex'>
                 <div className='col_1'>
                     <h4>FIND WITH ME</h4>

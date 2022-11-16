@@ -18,7 +18,7 @@ const Header = () => {
         <header className='header'>
             <div className='container d_flex'>
               <div className='logo'>
-                <img src={logo} className='logo_main' alt='logo Vishakha' height="70px" /> 
+                <img src={logo} className='logo_main' alt='logo Vishakha' height="60px" /> 
               </div>
               <div className='navlink'>
                   <ul className={Mobile ? "nav-links-mobile": "link f_flex uppercase" } onClick={() => setMobile(false)} >

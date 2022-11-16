@@ -45,7 +45,17 @@
 .Resume .left{
     position: relative;
 }
-.Resume .left::after{
+.Resume .content_exp::after{
+    content: '';
+    position: absolute;
+    top: 18%;
+    left: 0;
+    height: 35vh;
+    width: 5px;
+    background: #d9dee2;
+    z-index: -2;
+}
+/* .Resume .left::after{
     content: '';
     position: absolute;
     top: 16%;
@@ -54,17 +64,28 @@
     width: 5px;
     background: #d9dee2;
     z-index: -2;
-}
+} */
 .Resume .box::after{
     content: '';
     position: absolute;
     top: 13%;
     left: -8%;
     height: 5px;
-    width: 50px;
+    width: 30px;
     background: #d9dee2;
 }
-.Resume .left::after{
+.Resume .content_edu::after{
+    content: '';
+    position: absolute;
+    top: 18%;
+    left: 0;
+    height: 66vh;
+    width: 5px;
+    background: #d9dee2;
+    z-index: -2;
+}
+
+/* .Resume .left::after{
     content: '';
     position: absolute;
     top: 18%;
@@ -73,7 +94,7 @@
     width: 5px;
     background: #d9dee2;
     z-index: -2;
-}
+} */
 .Resume .left::before{
     content: '';
     position: absolute;
@@ -98,8 +119,9 @@
         top: 17%;
         height: 70vh;
     }
-    .Resume .box::after{
-        width: 25px;
+    .Resume .content_exp::after{
+        top: 30%;
+        height: 30vh;
     }
 }
 

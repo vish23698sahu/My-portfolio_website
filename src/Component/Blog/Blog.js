@@ -12,7 +12,7 @@ const Blog = () => {
             <div className='container'>
                 <div className='heading text-center'>
                     <h4>SKIM THROUGH MY ARTICLES AND SHARE YOUR THOUGHTS AS WELL !</h4>
-                    <h1>My Findings!</h1>
+                    <h1>My Thoughts!!</h1>
                 </div>
 
                 <div className='content grid'>

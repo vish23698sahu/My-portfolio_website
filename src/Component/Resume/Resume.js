@@ -14,12 +14,12 @@ const Resume = () => {
                     <h1>My Resume</h1>
                 </div>
                 <div className='content-section mtop d_flex'>
-                    <div className='left'>
+                    <div className='left content_edu'>
                         <div className='heading'>
                             <h4>2014-2020</h4>
                             <h1>Education Quality</h1>
                         </div>
-                        <div className='content'>
+                        <div className='content '>
                             {
                                 ResumeApi.map((val, id) => {
                                     if(val.category === "education"){
@@ -33,12 +33,12 @@ const Resume = () => {
                         </div>
                     </div>
 
-                    <div className='left'>
+                    <div className='left content_exp'>
                         <div className='heading'>
                             <h4>2021-2022</h4>
                             <h1>Job Experience</h1>
                         </div>
-                        <div className='content'>
+                        <div className='content '>
                             {
                                 ResumeApi.map((val, id) => {
                                     if(val.category === "experience"){

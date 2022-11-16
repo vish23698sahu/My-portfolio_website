@@ -118,4 +118,7 @@ footer{
   .right{
     width: 100%;
   } 
+  .heading h1{
+    font-size: 45px;
+  }
 }

@@ -15,9 +15,9 @@ const Card = (props) => {
                 <img src={props.image} alt='' onClick={toggleModal} />
             </div>
             <div className='category d_flex'>
-                <span onClick={toggleModal}>{props.category}</span>
+                <span onClick={toggleModal} className='portfolio__title'>{props.category}</span>
                 <label>
-                    <i className='far fa-heart'></i>{props.totalLike}
+                    <i className='far fa-heart portfolio__heart'></i>{props.totalLike}
                 </label>
             </div>
             <div className='title'>

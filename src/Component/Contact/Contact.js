@@ -36,7 +36,7 @@ const Contact = () => {
             <div className='container top'>
                 <div className='heading text-center'>
                     <h4>Contact Me</h4>
-                    <h1>Let's Connect</h1>
+                    <h1>Get In Touch !</h1>
                 </div>
 
                 <div className='content d_flex'>

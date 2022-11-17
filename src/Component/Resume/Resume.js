@@ -10,7 +10,7 @@ const Resume = () => {
         <section className='Resume' id='resume'>
             <div className='container top'>
                 <div className='heading text-center'>
-                    <h4>1+ Years of experience in Full Stack Development (Dotnet, React, MySQL)</h4>
+                    <h4>1.5 Years of experience in Full Stack Development (Dotnet, React, MySQL)</h4>
                     <h1>My Resume</h1>
                 </div>
                 <div className='content-section mtop d_flex'>

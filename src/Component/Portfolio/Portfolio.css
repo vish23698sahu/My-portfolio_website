@@ -28,7 +28,7 @@
 }
 .portfolio .category span{
     color: #ff014f;
-    font-size: 13px;
+    font-size: 15px;
     letter-spacing: 2px;
     font-weight: 500;
 }
@@ -45,7 +45,7 @@
     opacity: 1;
 }
 .portfolio h2{
-    font-size: 18px;
+    font-size: 20px;
     transition: 0.5s;
     padding-bottom: 10px;
 }
@@ -60,6 +60,12 @@
 }
 .portfolio__card{
     height: 10%;
+}
+.portfolio__heart{
+    cursor: pointer;
+}
+.portfolio__heart:hover{
+    color: #ff014f;
 }
 
 /* ------------popup----------- */

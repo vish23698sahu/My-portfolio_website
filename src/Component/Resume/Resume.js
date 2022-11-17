@@ -17,7 +17,7 @@ const Resume = () => {
                     <div className='left content_edu'>
                         <div className='heading'>
                             <h4>2014-2020</h4>
-                            <h1>Education Quality</h1>
+                            <h1>Education</h1>
                         </div>
                         <div className='content '>
                             {

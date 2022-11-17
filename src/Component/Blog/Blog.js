@@ -11,8 +11,8 @@ const Blog = () => {
         <section className='portfolio blog' id='blog'>
             <div className='container'>
                 <div className='heading text-center'>
-                    <h4>SKIM THROUGH MY ARTICLES AND SHARE YOUR THOUGHTS AS WELL !</h4>
-                    <h1>My Thoughts!!</h1>
+                    <h4>Articles!</h4>
+                    <h1>My Thoughts!</h1>
                 </div>
 
                 <div className='content grid'>

@@ -3,7 +3,7 @@ header{
     line-height: 10vh;
 }
 header .container{
-    padding-top: 15px;
+    padding-top: 10px;
     padding-right: 7%;
 }
 header ul li{
@@ -52,6 +52,10 @@ header ul li a:hover{
     box-shadow: -1px 11px 24px -11px rgba(0,0,0,0.75);
     transition: 0.5s;
 }
+.navlink{
+    font-size: 30px;
+}
+
 @media (max-width: 768px) {
     header ul{
         padding-top: 30px;
@@ -80,7 +84,7 @@ header ul li a:hover{
     .close,.open{
         position: absolute;
         top: 25px;
-        right: 30px;
+        right: 45px;
         color: #ff014f;
         display: block;
         font-size: 25px;

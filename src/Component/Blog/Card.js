@@ -34,7 +34,6 @@ const Card = (props) => {
             </div>
             <div className='category d_flex'>
                 <span onClick={toggleModal}>{props.date}</span>
-                
             </div>
             <div className='title'>
                 <h2 onClick={toggleModal}>{props.title_one}</h2>

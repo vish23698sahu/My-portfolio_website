@@ -58,8 +58,8 @@
     background: linear-gradient(145deg, #e2e8ec, #ffffff);
     box-shadow: 4px 4px 8px #cbcbcb 4px -4px 8px #ffffff;
     border-radius: 10px;
-    height: 570px;
-    width: 550px;
+    height: 545px;
+    width: 565px;
     margin-top: 20%;
 }
 .hero .right_img img{
@@ -80,8 +80,8 @@
         flex-direction: column-reverse;
     }
     .hero .right_img{
-        width: 94%;
-        height: 48vh;
+        width: 93%;
+        height: 47vh;
     }
     .hero .right_img img{
         padding-left: 10px;

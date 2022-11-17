@@ -12,7 +12,7 @@
 .portfolio .img{
     height: 300px;
     overflow: hidden;
-    transition: 0.5s;
+    transition: 0.6s;
 }
 .portfolio img{
     width: 100%;
@@ -20,10 +20,10 @@
     transition: 0.5s;
 }
 .portfolio .box .img:hover img{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .portfolio .category{
-    margin: 20px 0 30px 0;
+    margin: 10px 0 10px 0;
     text-transform: uppercase;
 }
 .portfolio .category span{
@@ -47,7 +47,7 @@
 .portfolio h2{
     font-size: 18px;
     transition: 0.5s;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 .portfolio .box:hover h2{
     color: #ff014f;
@@ -57,6 +57,9 @@
 }
 .portfolio label i{
     margin-right: 10px;
+}
+.portfolio__card{
+    height: 10%;
 }
 
 /* ------------popup----------- */
@@ -96,16 +99,16 @@
     border-radius: 10px;
 }
 .modal-text{
-    padding: 0 20px 0 30px;
+    padding: 0 10px 0 10px;
 }
 .modal-text h1{
-    margin: 20px 0 20px 0;
+    margin: 10px 0 10px 0;
     font-size: 30px;
 }
 .modal-text p { 
     font-size: 17px;
-    margin-bottom: 20px;
-    line-height: 25px;
+    margin-bottom: 10px;
+    line-height: 20px;
 }
 .modal-text button{
     margin-right: 20px;
@@ -150,6 +153,5 @@
     .modal .left{
         padding: 0;
     }
-
 }
 

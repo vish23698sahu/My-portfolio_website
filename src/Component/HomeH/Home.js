@@ -28,7 +28,7 @@ const Home = () => {
 
             <div className='hero_btn d_flex'>
                 <div className='col_1'>
-                    <h4>FIND WITH ME</h4>
+                    <h4>FIND ME ON</h4>
                     <div className='button'>
                         <button className='btn_shadow'>
                           <a href='https://www.facebook.com/' target='_blank' rel='noreferrer'>
@@ -49,7 +49,7 @@ const Home = () => {
                 </div>
 
                 <div className='col_1'>
-                    <h4>Best Skill on</h4>
+                    <h4>BEST SKILL ON</h4>
                     <button className='btn_shadow'>
                       <a href='https://github.com/vish23698sahu' target='_blank' rel='noreferrer'>
                         <i class="fa-brands fa-github"></i>

@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './Header.css';
-import logo from '../pic/logo.png';
-
+import logo from '../pic/logo.jpg';
 
 const Header = () => {
   //When scroll header at top

@@ -39,9 +39,9 @@ button{
   background-color: none;
 }
 .btn_shadow{
-  padding: 18px 25px;
+  padding: 20px 25px;
   border-radius: 6px;
-  transition: 0.5s all-ease;
+  transition: 1.5s all-ease;
   cursor: pointer;
   color: #000;
 }
@@ -90,7 +90,6 @@ h1{
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 35px;
 }
-
 p{
   color: #3c3e41;
 }
@@ -124,5 +123,8 @@ footer{
   }
   body{
     width: 100%;
+  }
+  .f_flex{
+    display: block;
   }
 }

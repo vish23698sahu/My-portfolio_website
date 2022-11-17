@@ -10,8 +10,8 @@ const Portfolio = () => {
         <section className='portfolio top' id='portfolio'>
             <div className='container'>
                 <div className='heading text-center'>
-                    <h4>VISTI MY PORTFOLIO AND DO SHARE YOUR VALUABLE FEEDBACK !</h4>
-                    <h1>Few of my Work</h1>
+                    <h4>VISIT MY PORTFOLIO!</h4>
+                    <h1>My Work</h1>
                 </div>
 
                 <div className='content grid'>

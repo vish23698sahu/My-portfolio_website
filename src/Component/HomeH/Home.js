@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css';
 import { Typewriter } from 'react-simple-typewriter';
-import profileP from '../pic/profilephoto.png';
+// import profileP from '../pic/profilephoto.png';
 
 const Home = () => {
   return (

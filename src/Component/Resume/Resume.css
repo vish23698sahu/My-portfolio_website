@@ -118,6 +118,7 @@
     .Resume .left{
         position: relative;
         left: 5%;
+        right: 0;
     }
     .Resume .left::after{
         top: 17%;

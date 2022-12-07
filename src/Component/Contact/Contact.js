@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
+import ResumePDF from './medias/VISHAKHA_Resume.pdf';
 import './Contact.css';
-import ResumePDF from './medias/Vishakha.pdf';
 
 const Contact = () => {
     const [data, setData] = useState({

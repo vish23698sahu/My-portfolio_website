@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Contact.css';
+import ResumePDF from './medias/Vishakha.pdf';
 
 const Contact = () => {
     const [data, setData] = useState({
@@ -75,6 +76,7 @@ const Contact = () => {
                                         </a>
                                     </button>
                                 </div>
+                                <a href={ResumePDF} download class="btn btn-resume">Download Resume</a>
                             </div>
                         </div>
 

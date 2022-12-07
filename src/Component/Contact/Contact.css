@@ -39,6 +39,21 @@
 .Contact .right button i{
     margin-left: 10px;
 }
+.btn{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #fff;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+}
+.btn.btn-resume{
+    border: none;
+    display: inline-block;
+    background: #ff004f;
+}
 
 @media (max-width: 768px) {
     .Contact .d_flex{

@@ -31,11 +31,11 @@ const Contact = () => {
 
         else
             alert(`
-            My Name is ${data.fullname}.
-            My phone number is ${data.phone}.
-            my email Address is ${data.email}.
-            My Subject is on ${data.subject}.
-            My message : ${data.message}.
+            Name: ${data.fullname}.
+            Phone: ${data.phone}.
+            Email: ${data.email}.
+            Subject: ${data.subject}.
+            Message: ${data.message}.
         `)
     }
 
